@@ -19,6 +19,10 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String ability = scanner.nextLine();
 
+        if (ability.isEmpty()) {
+            System.out.println("Well then, I hope I will be able to assist you another time :)");
+        }
+
         if (ability.equals("Guessing")) {
             guessing();
         }
@@ -43,6 +47,7 @@ public class Main {
 
     public static void counting() {
         System.out.println("Soon...");
+
     }
 
 
