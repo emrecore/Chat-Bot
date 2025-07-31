@@ -15,7 +15,7 @@ public class Main {
 
     public static void main(String[] args) {
         name();
-        System.out.println("Guessing / Counting / ");
+        System.out.println("Guessing / Counting / Quizzing / Adding / Subtracting / Multiplying / Dividing");
         Scanner scanner = new Scanner(System.in);
         String ability = scanner.nextLine();
 
@@ -29,6 +29,26 @@ public class Main {
 
         if (ability.equals("Counting")) {
             counting();
+        }
+
+        if (ability.equals("Quizzing")) {
+            quizzing();
+        }
+
+        if (ability.equals("Adding0")) {
+            adding();
+        }
+
+        if (ability.equals("Subtracting")) {
+            subtracting();
+        }
+
+        if (ability.equals("Multiplying")) {
+            multiplying();
+        }
+
+        if (ability.equals("Dividing")) {
+            dividing();
         }
     }
 
@@ -50,6 +70,30 @@ public class Main {
 
     }
 
+    public static void quizzing() {
+        System.out.println("Soon...");
+
+    }
+
+    public static void adding() {
+        System.out.println("Soon...");
+
+    }
+
+    public static void subtracting() {
+        System.out.println("Soon...");
+
+    }
+
+    public static void multiplying() {
+        System.out.println("Soon...");
+
+    }
+
+    public static void dividing() {
+        System.out.println("Soon...");
+
+    }
 
 
 
