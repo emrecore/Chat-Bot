@@ -22,36 +22,25 @@ public class Main {
 
         if (ability.isEmpty()) {
             System.out.println(botName + ": " + "Well then, I hope I will be able to assist you another time :)");
-        }
-
-        if (ability.equals("Guessing")) {
+        } else if (ability.equals("Guessing")) {
             guessing();
-        }
-
-        if (ability.equals("Counting")) {
+        } else if (ability.equals("Counting")) {
             counting();
-        }
-
-        if (ability.equals("Quizzing")) {
+        } else if (ability.equals("Quizzing")) {
             quizzing();
-        }
-
-        if (ability.equals("Adding")) {
+        } else if (ability.equals("Adding")) {
             adding();
-        }
-
-        if (ability.equals("Subtracting")) {
+        } else if (ability.equals("Subtracting")) {
             subtracting();
-        }
-
-        if (ability.equals("Multiplying")) {
+        } else if (ability.equals("Multiplying")) {
             multiplying();
-        }
-
-        if (ability.equals("Dividing")) {
+        } else if (ability.equals("Dividing")) {
             dividing();
+        } else {
+            System.out.println("I can't understand :(");
         }
     }
+
 
     public static void guessing() {
         Scanner scanner = new Scanner(System.in);
