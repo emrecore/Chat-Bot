@@ -82,22 +82,70 @@ public class Main {
     }
 
     public static void adding() {
-        System.out.println("Soon...");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println(botName + ": " + "Please enter your numbers :)");
+        int number = 0;
+
+        for (; ; ) {
+            number = number + scanner.nextInt();
+            System.out.println(number);
+
+            if (number == 0) {
+                System.out.println(botName + ": " + "We've reached Home <3");
+                break;
+            }
+        }
+
 
     }
 
     public static void subtracting() {
-        System.out.println("Soon...");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println(botName + ": " + "Please enter your numbers :)");
+        int number = 0;
 
+        for (; ; ) {
+            number = number - scanner.nextInt();
+            System.out.println(number);
+
+            if (number == 0) {
+                System.out.println(botName + ": " + "We've reached Home <3");
+                break;
+            }
+        }
     }
 
     public static void multiplying() {
-        System.out.println("Soon...");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println(botName + ": " + "Please enter your numbers :)");
+        int number = 1;
+
+        for (; ; ) {
+            number = number * scanner.nextInt();
+            System.out.println(number);
+
+            if (number == 0) {
+                System.out.println(botName + ": " + "Now it's just boring :(");
+                break;
+            }
+        }
 
     }
 
     public static void dividing() {
-        System.out.println("Soon...");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println(botName + ": " + "Please enter your numbers :)");
+        double number = scanner.nextDouble();
+
+        for (; ; ) {
+            number = number / scanner.nextInt();
+            System.out.println(number);
+
+            if (number < 0.000001) {
+                System.out.println(botName + ": " + "I start to doubt if there is any amount left :(");
+                break;
+            }
+        }
 
     }
 
