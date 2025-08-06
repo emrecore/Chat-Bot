@@ -6,6 +6,7 @@ A beginner-friendly Java-based chat bot that interacts with users by performing 
 
 - **Custom Naming**: The user can give the bot a personalized name
 - **Age Guesser**: The bot can try to guess your age
+- **Quizzing**: The bot can quiz the user
 - **Basic Math**: The bot supports
   - Addition
   - Subtraction
