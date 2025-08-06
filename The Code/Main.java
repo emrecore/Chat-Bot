@@ -77,7 +77,91 @@ public class Main {
 
 
     public static void quizzing() {
-        System.out.println("Soon...");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println(botName + ": " + "Please choose your quiz :)");
+        System.out.println("1. 2. 3. 4.");
+        String quiz = scanner.nextLine();
+
+        if (quiz.equals("1.")) {
+            Scanner answer = new Scanner(System.in);
+            System.out.println("Which organelle is responsible for producing energy in the cell?");
+            System.out.println("A. Nucleus");
+            System.out.println("B. Mitochondrion");
+            System.out.println("C. Ribosome");
+            System.out.println("D. Golgi apparatus");
+
+
+            for (; ; ) {
+                String correct = answer.nextLine();
+                if (correct.equals("B.")) {
+                    System.out.println(botName + ": " + "Congratulations :)");
+                    break;
+                } else {
+                    System.out.println(botName + ": " + "Try again :(");
+                }
+            }
+        }
+
+        if (quiz.equals("2.")) {
+            Scanner answer = new Scanner(System.in);
+            System.out.println("Which country has the most official languages?");
+            System.out.println("A. India");
+            System.out.println("B. Switzerland");
+            System.out.println("C. South Africa");
+            System.out.println("D. Canada");
+
+
+            for (; ; ) {
+                String correct = answer.nextLine();
+                if (correct.equals("C.")) {
+                    System.out.println(botName + ": " + "Congratulations :)");
+                    break;
+                } else {
+                    System.out.println(botName + ": " + "Try again :(");
+                }
+            }
+        }
+
+        if (quiz.equals("3.")) {
+            Scanner answer = new Scanner(System.in);
+            System.out.println("Who was the first president of the United States?");
+            System.out.println("A. Thomas Jefferson");
+            System.out.println("B. Abraham Lincoln");
+            System.out.println("C. George Washington");
+            System.out.println("D. John Adams");
+
+
+            for (; ; ) {
+                String correct = answer.nextLine();
+                if (correct.equals("C.")) {
+                    System.out.println(botName + ": " + "Congratulations :)");
+                    break;
+                } else {
+                    System.out.println(botName + ": " + "Try again :(");
+                }
+            }
+        }
+
+        if (quiz.equals("4.")) {
+            Scanner answer = new Scanner(System.in);
+            System.out.println("What does HTML stand for?");
+            System.out.println("A. HyperText Markup Language");
+            System.out.println("B. HighText Machine Language");
+            System.out.println("C. HyperTool Markup Language");
+            System.out.println("D. HyperText Managing Language");
+
+
+            for (; ; ) {
+                String correct = answer.nextLine();
+                if (correct.equals("A.")) {
+                    System.out.println(botName + ": " + "Congratulations :)");
+                    break;
+                } else {
+                    System.out.println(botName + ": " + "Try again :(");
+                }
+            }
+        }
+
 
     }
 
